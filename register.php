@@ -5,16 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style-login.css">
+    <style>
+        body {
+            background-color: #fce4ec;
+        }
+        .container-fluid {
+            height: 100vh;
+        }
+        .image-section img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px 0 0 10px;
+        }
+        .image-caption {
+            margin-top: 20px;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: #555;
+        }
+        .login-form-container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .btn-login {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .btn-login img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+    </style>
 </head>
 <body>
-    <div class="container-fluid vh-100">
+    <div class="container-fluid">
         <div class="row h-100">
             <!-- Image Section -->
-            <div class="col-md-8 d-none d-md-flex align-items-center justify-content-center p-0">
+            <div class="col-md-8 d-flex align-items-center justify-content-center p-0 order-md-1">
                 <div class="image-section">
-                    <img src="assets/image/loginpage.jpg" alt="Keraton Yogyakarta" class="img-fluid rounded-start">
-                    <div class="image-caption p-4">
+                    <img src="assets/image/loginpage.jpg" alt="Keraton Yogyakarta">
+                    <div class="image-caption">
                         <h4>Keraton Yogyakarta</h4>
                         <p>This one has been built for the hot conditions and in a generally more demure style, although there’s a real beauty in the Javanese architecture on display.</p>
                     </div>
