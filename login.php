@@ -17,7 +17,7 @@
                 <div class="image-section">
                     <img src="assets/image/loginpage.jpg" alt="Keraton Yogyakarta" class="img-fluid rounded-start">
                     <div class="image-caption p-4">
-                        <h4>Keraton Yogyakarta</h4>
+                        <h4>Keraton Yogyakarta menyenangkan</h4>
                         <p>This one has been built for the hot conditions and in a generally more demure style, although there’s a real beauty in the Javanese architecture on display.</p>
                     </div>
                 </div>
