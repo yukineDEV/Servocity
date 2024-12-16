@@ -50,14 +50,15 @@
   color: #fff;
 }
 
-.img-btn-login {
-  /* Gambar default */
-  background-image: url('assets/image/apple-logo.png');
-  background-size: 12%; /* Ukuran gambar */
- 
+.form-check-label, .forgot, .under-text {
+  font-size: 13px;
 }
 
-.img-btn-login:hover {
-  /* Gambar saat hover */
-  background-image: url('assets/image/apple-logo-w.png');
+.under-text {
+  margin-top: 10px;
+}
+
+.top-text {
+  color: #444444;
+  margin-bottom: 50px;
 }

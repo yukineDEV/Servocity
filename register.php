@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style-register.css">
+    <link rel="stylesheet" href="assets/css/style-LnR.css">
 </head>
+
 <body>
     <div class="container-fluid vh-100">
         <div class="row h-100">
-            
+
             <!-- Login Section -->
             <div class="col-md-4 d-flex align-items-center justify-content-center">
                 <div class="login-form-container p-4">
-                    <h3 class="mb-4">Get Started Now</h3>
+                    <h2 class="mb-4">Get Started Now</h2>
                     <form>
                         <div class="mb-3">
                             <label for="name" class="form-label">Name</label>
@@ -29,15 +31,22 @@
                             <input type="password" class="form-control" id="password" placeholder="Enter your password">
                         </div>
                         <div class="d-flex justify-content-between mb-3">
-                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="rememberMe">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="terms & policy">
                                 <label class="form-check-label" for="rememberMe">I agree to the <a href="#">terms & policy</a></label>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-warning mb-3">Signup</button><br/><br/>
+                        <button type="submit" class="btn btn-warning mb-3">Signup</button><br /><br />
+
+                        <div class="d-flex align-items-center mb-5">
+                            <div class="flex-grow-1 border-bottom"></div>
+                            <span class="mx-3 text-muted">or</span>
+                            <div class="flex-grow-1 border-bottom"></div>
+                        </div>
+
                         <button type="button" class="btn btn-outline-dark mb-1 btn-login"><img src="assets/image/google-logo.png" alt="" class="icon"> Sign in with Google</button>
                         <button type="button" class="btn btn-outline-dark mb-1 btn-login img-btn-login"><img src="assets/image/apple-logo.png" alt="" class="icon"> Sign in with Apple</button>
-                        <p class="text-center">Have an account? <a href="login.php" class="text-decoration-none">Sign In</a></p>
+                        <p class="text-center under-text">Have an account? <a href="login.php" class="text-decoration-none">Sign In</a></p>
                     </form>
                 </div>
             </div>
@@ -53,7 +62,8 @@
             </div>
         </div>
     </div>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
