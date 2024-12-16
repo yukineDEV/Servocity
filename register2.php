@@ -6,28 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style-LnR.css">
+    <link rel="stylesheet" href="assets/css/style-register.css">
 </head>
 
 <body>
     <div class="container-fluid vh-100">
         <div class="row h-100">
-            <!-- Image Section -->
-            <div class="col-md-8 d-none d-md-flex align-items-center justify-content-center p-0">
-                <div class="image-section">
-                    <img src="assets/image/loginpage.jpg" alt="Keraton Yogyakarta" class="img-fluid rounded-start">
-                    <div class="image-caption p-4">
-                        <h4>Keraton Yogyakarta</h4>
-                        <p>This one has been built for the hot conditions and in a generally more demure style, although there’s a real beauty in the Javanese architecture on display.</p>
-                    </div>
-                </div>
-            </div>
+            
             <!-- Login Section -->
             <div class="col-md-4 d-flex align-items-center justify-content-center">
                 <div class="login-form-container p-4">
-                    <h2 class="mb-6">Welcome back!</h2>
-                    <p class="top-text">Enter your credentials to access your account</p>
+                    <h2 class="mb-4">Get Started Now</h2>
+                    
                     <form>
+                    <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="email" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Email address</label>
                             <input type="email" class="form-control" id="email" placeholder="Enter your email">
@@ -46,6 +41,11 @@
                             </div>
                         </div>
                         <a href="homepage.php" type="submit" class="btn btn-warning mb-3">Login</a><br /><br />
+                        <div class="d-flex align-items-center mb-5">
+                            <div class="flex-grow-1 border-bottom"></div>
+                            <span class="mx-3 text-muted">or</span>
+                            <div class="flex-grow-1 border-bottom"></div>
+                        </div>
                         <button type="button" class="btn btn-outline-dark mb-1 btn-login">
                             <img src="assets/image/google-logo.png" alt="Goggle Logo" class="icon"><span> Sign in with Google</span>
                         </button>
@@ -57,7 +57,17 @@
                     </form>
                 </div>
             </div>
-        </div>  
+            <!-- Image Section -->
+            <div class="col-md-8 d-none d-md-flex align-items-center justify-content-center p-0">
+                <div class="image-section">
+                    <img src="assets/image/registerpage.jpg" alt="Keraton Yogyakarta" class="img-fluid rounded-start">
+                    <div class="image-caption p-4">
+                        <h4>Keraton Yogyakarta</h4>
+                        <p>The placement of the pavilions, the courtyards and even the trees all have significance within the traditional spiritual view of the world by the local people.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
