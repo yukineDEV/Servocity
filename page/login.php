@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style-LnR.css">
+    <link rel="stylesheet" href="../assets/css/style-Login.css">
 </head>
 
 <body>
@@ -15,7 +15,7 @@
             <!-- Image Section -->
             <div class="col-md-8 d-none d-md-flex align-items-center justify-content-center p-0">
                 <div class="image-section">
-                    <img src="assets/image/loginpage.jpg" alt="Keraton Yogyakarta" class="img-fluid rounded-start">
+                    <img src="../assets/image/loginpage.jpg" alt="Keraton Yogyakarta" class="img-fluid rounded-start">
                     <div class="image-caption p-4">
                         <h4>Keraton Yogyakarta</h4>
                         <p>This one has been built for the hot conditions and in a generally more demure style, although there’s a real beauty in the Javanese architecture on display.</p>
@@ -47,11 +47,11 @@
                         </div>
                         <a href="homepage.php" type="submit" class="btn btn-warning mb-3">Login</a><br /><br />
                         <button type="button" class="btn btn-outline-dark mb-1 btn-login">
-                            <img src="assets/image/google-logo.png" alt="Goggle Logo" class="icon"><span> Sign in with Google</span>
+                            <img src="../assets/image/google-logo.png" alt="Goggle Logo" class="icon"><span> Sign in with Google</span>
                         </button>
                         <button type="button" class="btn btn-outline-dark mb-1 btn-login">
-                            <img src="assets/image/apple-logo.png" alt="Apple Logo" class="icon-apple icon-normal">
-                            <img src="assets/image/apple-logo-w.png" alt="Apple Logo White" class="icon-apple icon-hover"><span> Sign in with Apple</span>
+                            <img src="../assets/image/apple-logo.png" alt="Apple Logo" class="icon-apple icon-normal">
+                            <img src="../assets/image/apple-logo-w.png" alt="Apple Logo White" class="icon-apple icon-hover"><span> Sign in with Apple</span>
                         </button>
                         <p class="text-center under-text">Don’t have an account? <a href="register.php" class="text-decoration-none">Sign Up</a></p>
                     </form>
