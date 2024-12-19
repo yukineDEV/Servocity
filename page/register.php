@@ -17,7 +17,7 @@
             <div class="col-md-4 d-flex align-items-center justify-content-center">
                 <div class="login-form-container p-4">
                     <h2 class="mb-6">Get Started Now</h2>
-                    <p>Sign in with your information to continue.........</p>
+                    <p>Provide your information to sign in and access your account</p>
                     <form>
                         <div class="mb-3">
                             <label for="name" class="form-label">Name</label>

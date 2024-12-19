@@ -35,8 +35,8 @@
         <h1>ServoCity Your One-Stop Solution</h1>
         <h2>for Government and Public Services</h2>
         <div class="Higlight-hero">
-          <p >ServoCity brings government and community services together in one place. Find what you need quickly, whether
-          it's permits, records, or support services - all just a click away.</p>
+          <p>ServoCity brings government and community services together in one place. Find what you need quickly, whether
+            it's permits, records, or support services - all just a click away.</p>
         </div>
       </div>
     </section>
@@ -91,21 +91,74 @@
             </div>
           </div>
 
-          <div class="profile-card">
             <div class="profile-header">
-              <img src="assets/image/dudukmanis.png" alt="Won" class="profile-avatar" />
-              <div class="profile-info">
-                <h4>Won</h4>
-                <p>Divisional head</p>
+              <img src="../assets/image/dudukmanis.png" alt="Won" class="profile-avatar" />
               </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Add this after your last milestone section -->
+    <section class="future-vision">
+      <div class="container">
+        <h2>In 2025</h2>
+        <div class="vision-content">
+          <div class="vision-text">
+            <p>The project was created as part of the Web-Based Application Development course and the Information Technology Development Management class, where students applied their skills in digital technology and service optimization to craft a user-centered e-Government platform. Set for launch at UII's Informatics Expo in 2025, ServoCity is designed to bridge citizens and government services seamlessly, allowing the people of Yogyakarta to access public information, submit service requests, and participate in community events all in one place. This project underscores UII's commitment to fostering innovation and practical solutions that address real-world challenges through student-led initiatives.</p>
+          </div>
+          <div class="team-member">
+            <img src="../assets/image/Group 20.png" alt="Kentaro Sakaguchi" class="member-image">
+            <div class="member-info">
+              <h3>Kentaro Sakaguchi</h3>
+              <p class="role">Divisional head</p>
+              <p class="description">Ken is a highly experienced IT and cyber security advisor with a significant track record in designing secure communication solutions for rural groups and remote communities.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
+
   </main>
 
-<script src="assets/javascript/homepage.js"></script>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-branding">
+          <h3>ServoCity</h3>
+          <p class="tagline">Scan. Detect. Remove.</p>
+          <div class="social-links">
+            <a href="#" class="social-link"><img src="../assets/image/twitter.png" alt="Twitter"></a>
+            <a href="#" class="social-link"><img src="../assets/image/facebook.png" alt="Facebook"></a>
+            <a href="#" class="social-link"><img src="../assets/image/youtube.png" alt="YouTube"></a>
+          </div>
+        </div>
+
+        <nav class="footer-nav">
+          <ul>
+            <li><a href="#" class="highlight">About ServoCity</a></li>
+            <li><a href="#" class="highlight">Android</a></li>
+            <li><a href="#" class="highlight">Help</a></li>
+            <li><a href="#" class="highlight">About</a></li>
+            <li><a href="#" class="highlight">Insights</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-legal">
+          <div class="legal-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+          </div>
+          <p class="copyright">Copyright © 2024 ServoCity | E-Government Website. Last Updated 21 Oct 2024. Registered in Universitas Islam Indonesia No. 8</p>
+          <p class="credits">Designed & Developed by ServoCity Team</p>
+          <p class="trademark">Apple, the Apple logo, and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android, Google Play and the Google Play logo are trademarks of Google LLC.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="../assets/javascript/homepage.js"></script>
 </body>
 
 </html>

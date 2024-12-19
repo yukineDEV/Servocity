@@ -31,8 +31,7 @@ body {
 }
 
 .navbar a {
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
 
 .logo img {
@@ -46,8 +45,6 @@ body {
     margin: 0 1rem;
     font-weight: 500;
     transition: color 0.3s ease;
-    
-    
 }
 
 .nav-links a:hover {
@@ -209,18 +206,20 @@ body {
 }
 
 .goals-image img {
-    width: 100%;
-    height: 100%;
+    width: 150%;
+    height: 110%;
     object-fit: cover;
     border-radius: 8px;
 }
 
 .goals-content {
     flex: 1;
-    background-color: #dc2626;
+    background-color: #dc2626b0;
     color: white;
     padding: 3rem;
     border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 15px;
 }
 
 .goals-content h2 {
@@ -272,12 +271,12 @@ body {
 }
 
 .timeline-item h3 {
-    color: #dc2626;
+    color: #ffffff;
     margin-bottom: 1rem;
 }
 
 .timeline-item ul {
-    list-style: none;
+    /* list-style: none; */
 }
 
 .timeline-item li {
@@ -287,7 +286,7 @@ body {
 
 .profile-card {
     flex: 1;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.347);
     padding: 1.5rem;
     border-radius: 8px;
 }
@@ -298,11 +297,10 @@ body {
     gap: 1rem;
 }
 
-.profile-avatar {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+.profile-avatar {   
+    width: 150%;
     object-fit: cover;
+    
 }
 
 .profile-info h4 {
@@ -311,6 +309,165 @@ body {
 
 .profile-info p {
     color: #94a3b8;
+}
+
+/* Add to your existing CSS file */
+
+/* Future Vision Section */
+.future-vision {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.future-vision .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.future-vision h2 {
+    font-size: 2.5rem;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.vision-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.vision-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+}
+
+.team-member {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+
+.member-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.member-info {
+    padding: 20px;
+}
+
+.member-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.member-info .role {
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.member-info .description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #444;
+}
+
+/* Footer Styles */
+.site-footer {
+    background-color: #000;
+    color: #fff;
+    padding: 60px 0 40px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.footer-branding h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    margin-bottom: 24px;
+}
+
+.social-links {
+    display: flex;
+    gap: 16px;
+}
+
+.social-link img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav li {
+    margin-bottom: 12px;
+}
+
+.footer-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.footer-nav a.highlight {
+    color: #FFD700;
+}
+
+.footer-legal {
+    grid-column: 1 / -1;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.legal-links {
+    margin-bottom: 20px;
+}
+
+.legal-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.copyright, .credits {
+    margin-bottom: 8px;
+}
+
+.trademark {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+    .vision-content {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
 }
 
 /* Responsive Design */
