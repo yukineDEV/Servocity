@@ -18,7 +18,7 @@
       <div class="nav-links">
         <a href="#hero" class="active">Home</a>
         <a href="#about">About</a>
-        <a href="#">Category</a>
+        <a href="category.php">Category</a>
         <a href="#">Complaint</a>
         <a href="#">Feedback</a>
       </div>
