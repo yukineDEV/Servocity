@@ -17,6 +17,11 @@ body {
     background-color: var(--background-color);
 }
 
+.scroll-page {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
 /* Navbar Styles */
 .navbar {
     display: flex;
@@ -273,11 +278,7 @@ body {
 .timeline-item h3 {
     color: #ffffff;
     margin-bottom: 1rem;
-}
-
-.timeline-item ul {
-    /* list-style: none; */
-}
+}   
 
 .timeline-item li {
     margin-bottom: 1rem;

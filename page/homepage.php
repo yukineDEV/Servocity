@@ -9,15 +9,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="assets/css/style-homepage.css">
 </head>
 
-<body>
+<body >
   <header>
     <nav class="navbar">
       <div class="logo">
         <img src="../assets/image/servocity 1.png" alt="ServoCity Logo">
       </div>
       <div class="nav-links">
-        <a href="#" class="active">Home</a>
-        <a href="#">About</a>
+        <a href="#hero" class="active">Home</a>
+        <a href="#about">About</a>
         <a href="#">Category</a>
         <a href="#">Complaint</a>
         <a href="#">Feedback</a>
@@ -29,19 +29,22 @@
     </nav>
   </header>
 
-  <main>
-    <section class="hero">
+  <main class="scroll-page">
+    <section class="hero" id="hero">
       <div class="hero-content">
         <h1>ServoCity Your One-Stop Solution</h1>
         <h2>for Government and Public Services</h2>
-        <div class="Higlight-hero">
+        <div class="Higlight-hero" >
           <p>ServoCity brings government and community services together in one place. Find what you need quickly, whether
             it's permits, records, or support services - all just a click away.</p>
         </div>
+   
+        <p id="about"></p>
       </div>
+      
     </section>
 
-    <section class="about">
+    <section class="about" >
       <div class="about-content">
         <div class="about-text">
           <h2>About ServoCity</h2>
@@ -59,7 +62,7 @@
     </section>
 
     <!-- GOALS -->
-    <section class="goals">
+    <section class="goals" id="goals">
       <div class="goals-container">
         <div class="goals-image">
           <img src="../assets/image/cantik2.png" alt="Person working on laptop" />
